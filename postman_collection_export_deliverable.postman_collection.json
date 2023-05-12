@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "54506abe-14d0-4b82-9a20-94573710f8a9",
+		"name": "Interview Dev Ubilab May/2023",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1402870"
+	},
+	"item": [
+		{
+			"name": "Post Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"user01FirstName\",\r\n    \"lastName\": \"user01LastName\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/user/createUser",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"createUser"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post Create User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"user01FirstName\",\r\n    \"lastName\": \"user01LastName\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/createUser",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"createUser"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "162"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a2-qSOSrVRRCbO1Z4EmIoUedPkytcs\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 01 May 2023 00:48:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"firstName\": \"user01FirstName\",\n    \"lastName\": \"user01LastName\",\n    \"id\": 12,\n    \"createdAt\": \"2023-05-01T00:48:42.000Z\",\n    \"lastUpdate\": \"2023-05-01T00:48:42.000Z\",\n    \"isActive\": true\n}"
+				}
+			]
+		}
+	]
+}

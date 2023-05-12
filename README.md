@@ -84,12 +84,12 @@ Make sure that your code has enough comments and documentation so the examiner c
 ***Please look at [Nest](https://github.com/nestjs/nest) to understand more about the project template, structure, and framework.***
 
 
-Hello Sir
+Hello sir
 
-Thanks for the wonderful opportunity I really learn in it. These is my 1st Nestjs work I'll definately improve myself.
+Thank you for the wonderful opportunity I am really learning in it. This is my first Nestjs work I will definitely improve myself.
 
+Task wise I try to meet all the requirements in that process I also face some issues but I always learn in those mistakes so just install the packages to run this application it won't worry.
 
-According to the task I try to fill all requirement in that process I also face some issues but I always learn in that errors so for the run these application just install the packages it will excutes no worry.
 
 ## Installation
 
